@@ -3,7 +3,7 @@ package timezone
 import "testing"
 
 var expectedZones = []Timezone{
-	Timezone{"Europe/Helsinki", "FI"},
+	Timezone{"Africa/Abidjan", "CI"},
 }
 
 func TestZones(t *testing.T) {

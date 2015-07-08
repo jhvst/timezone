@@ -6,7 +6,6 @@ type Timezone struct {
 }
 
 var Locations = []Timezone{
-	{"Europe/Helsinki", "FI"},	
 	{"Africa/Abidjan", "CI"},
 	{"Africa/Accra", "GH"},
 	{"Africa/Addis_Ababa", "ET"},
@@ -332,6 +331,7 @@ var Locations = []Timezone{
 	{"Europe/Dublin", "IE"},
 	{"Europe/Gibraltar", "GI"},
 	{"Europe/Guernsey", "GG"},
+	{"Europe/Helsinki", "FI"},
 	{"Europe/Isle_of_Man", "IM"},
 	{"Europe/Istanbul", "TR"},
 	{"Europe/Jersey", "JE"},
