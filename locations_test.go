@@ -2,12 +2,12 @@ package timezone
 
 import "testing"
 
-var expectedZones = []Timezone{
+var expectedLocations = []Timezone{
 	Timezone{"Africa/Abidjan", "CI"},
 }
 
-func TestZones(t *testing.T) {
-	if Locations[0] != expectedZones[0] {
+func TestLocations(t *testing.T) {
+	if Locations[0] != expectedLocations[0] {
 		t.Errorf("ZonesTest returned %s", Locations[0])
 	}
 

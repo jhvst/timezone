@@ -1,11 +1,13 @@
 package timezone
 
+// Timezone holds data gathered from CSV files on http://timezonedb.com/download.
 type Timezone struct {
 	Location string
 	Code     string
 }
 
-var Locations = []Timezone{
+// Locations is a list of all IANA timezone locations and country codes.
+var Locations = [416]Timezone{
 	{"Africa/Abidjan", "CI"},
 	{"Africa/Accra", "GH"},
 	{"Africa/Addis_Ababa", "ET"},
