@@ -216,6 +216,35 @@ Zone	Indian/Mayotte	3:00:56	-	LMT	1911 Jul
 Zone	Pacific/Johnston	-10:00	-	HST
 Zone	Pacific/Midway	-11:49:28	-	LMT	1901
 Zone	Pacific/Saipan	-14:17:00	-	LMT	1844 Dec 31
+Zone	Etc/GMT	0	-	GMT
+Zone	Etc/UTC	0	-	UTC
+Zone	Etc/UCT	0	-	UCT
+Zone	Etc/GMT-14	14	-	GMT-14
+Zone	Etc/GMT-13	13	-	GMT-13
+Zone	Etc/GMT-12	12	-	GMT-12
+Zone	Etc/GMT-11	11	-	GMT-11
+Zone	Etc/GMT-10	10	-	GMT-10
+Zone	Etc/GMT-9	9	-	GMT-9
+Zone	Etc/GMT-8	8	-	GMT-8
+Zone	Etc/GMT-7	7	-	GMT-7
+Zone	Etc/GMT-6	6	-	GMT-6
+Zone	Etc/GMT-5	5	-	GMT-5
+Zone	Etc/GMT-4	4	-	GMT-4
+Zone	Etc/GMT-3	3	-	GMT-3
+Zone	Etc/GMT-2	2	-	GMT-2
+Zone	Etc/GMT-1	1	-	GMT-1
+Zone	Etc/GMT+1	-1	-	GMT+1
+Zone	Etc/GMT+2	-2	-	GMT+2
+Zone	Etc/GMT+3	-3	-	GMT+3
+Zone	Etc/GMT+4	-4	-	GMT+4
+Zone	Etc/GMT+5	-5	-	GMT+5
+Zone	Etc/GMT+6	-6	-	GMT+6
+Zone	Etc/GMT+7	-7	-	GMT+7
+Zone	Etc/GMT+8	-8	-	GMT+8
+Zone	Etc/GMT+9	-9	-	GMT+9
+Zone	Etc/GMT+10	-10	-	GMT+10
+Zone	Etc/GMT+11	-11	-	GMT+11
+Zone	Etc/GMT+12	-12	-	GMT+12
 Zone	Europe/London	-0:01:15	-	LMT	1847 Dec 1 0:00s
 Zone	Europe/Dublin	-0:25:00	-	LMT	1880 Aug 2
 Zone	WET	0:00	EU	WE%sT
@@ -288,6 +317,7 @@ Zone	Europe/Istanbul	1:55:52	-	LMT	1880
 Zone	Europe/Kiev	2:02:04	-	LMT	1880
 Zone	Europe/Uzhgorod	1:29:12	-	LMT	1890 Oct
 Zone	Europe/Zaporozhye	2:20:40	-	LMT	1880
+Zone	Factory	0	-	"Local time zone must be set--see zic manual page"
 Zone	EST	-5:00	-	EST
 Zone	MST	-7:00	-	MST
 Zone	HST	-10:00	-	HST
