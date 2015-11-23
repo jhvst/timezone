@@ -59,13 +59,13 @@ func TestInvalidLocation(t *testing.T) {
 }
 
 var expectedOffsets = []int{
-	10800,
+	7200,
 }
 
 func TestOffset(t *testing.T) {
 	for i, expectedOffset := range expectedOffsets {
 		zone, offset, err := Offset(validLocations[i])
-		if zone != "EEST" {
+		if zone != "EET" {
 			t.Errorf("zone of %s should have been %s", validLocations[i], zone)
 		}
 		if expectedOffset != offset {
@@ -80,7 +80,7 @@ func TestOffset(t *testing.T) {
 func ExampleOffset() {
 	zone, offset, _ := Offset("Europe/Helsinki")
 	fmt.Println(zone, offset)
-	// Output: EEST 10800
+	// Output: EET 7200
 }
 
 func TestCountry(t *testing.T) {
